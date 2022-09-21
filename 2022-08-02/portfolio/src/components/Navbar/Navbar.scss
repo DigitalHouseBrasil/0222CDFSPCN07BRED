@@ -1,0 +1,32 @@
+.nav--container {
+  background-color: #582a79;
+  color: #fff;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      padding: 1rem;
+    }
+
+    ul {
+      display: flex;
+
+      li {
+        list-style: none;
+        padding: 1rem;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
